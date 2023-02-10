@@ -1,0 +1,16 @@
+for joist in joists:
+	girder_intersection, points = girders[0].beam_curve.revitBeam.Intersectjoist.beam_curve)
+
+
+COPY /Y "C:\Users\tlope\Desktop\Revit Dynamo Python\BE*.py" "C:\Program Files\Autodesk\Revit 2021\BuroEhring"
+
+
+
+
+intersectionRA = clr.Reference[IntersectionResultArray]()
+
+intersections = []
+for joist in joists:
+	girders[0].beam_curve.revitBeam.Intersectjoist.beam_curve, intersectionRA)
+	for RA in intersectionRA.GetEnumerator():
+	intersections.append(RA.XYZPoint)

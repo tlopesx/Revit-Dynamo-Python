@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "C:\\Program Files\\IronPython 3.4\\ipy.exe",
+    "python.autoComplete.extraPaths": [
+    "C:\\Users\\tlope\\AppData\\Roaming\\ironpython-stubs-master\\release\\stubs.min"
+    ],
+    "python.analysis.extraPaths": [
+        "C:\\Users\\tlope\\AppData\\Roaming\\ironpython-stubs-master\\release\\stubs.min"
+    ]
+}
